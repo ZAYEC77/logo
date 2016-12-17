@@ -1,0 +1,44 @@
+body {
+  background: #000d19;
+  font-family: Roboto; }
+
+#logo {
+  user-select: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 24px;
+  transition: all 0.3s;
+  width: 90px; }
+  #logo:hover {
+    width: 270px; }
+  #logo:before {
+    content: "<? ["; }
+  #logo:after {
+    content: "} ;"; }
+  #logo span {
+    transition: all 0.3s;
+    margin: auto -2px -5px -2px;
+    width: 12.5px;
+    display: inline-block;
+    overflow: hidden; }
+    #logo span:first-child {
+      width: 15px;
+      margin-right: -4px;
+      margin-left: -4px; }
+    #logo span:last-child {
+      width: 11px; }
+  #logo:hover span {
+    width: 90px; }
+    #logo:hover span:first-child {
+      width: 38px; }
+    #logo:hover span:last-child {
+      width: 88px; }
+
+/*# sourceMappingURL=styles.css.map */

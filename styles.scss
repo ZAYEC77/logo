@@ -1,0 +1,55 @@
+body {
+    background: #000d19;
+    font-family: Roboto;
+}
+
+#logo {
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 24px;
+    transition: all 0.3s;
+    width: 90px;
+    &:hover {
+        width: 270px;
+    }
+    &:before {
+        content: "<? [";
+    }
+    &:after {
+        content: "} ;";
+    }
+    span {
+        transition: all 0.3s;
+        margin: auto -2px -5px -2px;
+        width: 12.5px;
+        display: inline-block;
+        overflow: hidden;
+        &:first-child {
+            width: 15px;
+            margin-right: -4px;
+            margin-left: -4px;
+        }
+        &:last-child {
+            width: 11px;
+        }
+    }
+    &:hover {
+        span {
+            width: 90px;
+            &:first-child {
+                width: 38px;
+            }
+            &:last-child {
+                width: 88px;
+            }
+        }
+    }
+}
