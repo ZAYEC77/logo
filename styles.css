@@ -18,7 +18,8 @@ body {
   transition: all 0.3s;
   width: 90px; }
   #logo:hover {
-    width: 270px; }
+    width: 270px;
+    transform: scale(1.5); }
   #logo:before {
     content: "<? ["; }
   #logo:after {

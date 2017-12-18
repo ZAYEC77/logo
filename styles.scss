@@ -20,6 +20,7 @@ body {
     width: 90px;
     &:hover {
         width: 270px;
+        transform: scale(1.5);
     }
     &:before {
         content: "<? [";
